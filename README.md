@@ -1,6 +1,6 @@
 # Manufacturing Defect Prediction
 
-A machine learning pipeline to predict manufacturing defects (`DefectStatus`) using classification models trained on the `manufacturing\\\_defect\\\_dataset.csv` dataset.
+A machine learning pipeline to predict manufacturing defects (`DefectStatus`) using classification models trained on the `manufacturing_defect_dataset.csv` dataset.
 
 \---
 
@@ -12,7 +12,7 @@ This project builds and evaluates multiple classification models to predict whet
 
 ## Dataset
 
-**File:** `manufacturing\\\_defect\\\_dataset.csv`
+**File:** `manufacturing_defect_dataset.csv`
 
 **Target Variable:** `DefectStatus` (binary — defective or not)
 
@@ -36,7 +36,7 @@ This project builds and evaluates multiple classification models to predict whet
 ```
 manufacturing-defect-prediction/
 │
-├── manufacturing\\\_defect\\\_dataset.csv   # Input dataset
+├── manufacturing_defect_dataset.csv   # Input dataset
 ├── defect.ipynb                       # Main Jupyter Notebook
 └── README.md                          # Project documentation
 ```
