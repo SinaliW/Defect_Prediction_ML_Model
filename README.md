@@ -37,7 +37,7 @@ This project builds and evaluates multiple classification models to predict whet
 manufacturing-defect-prediction/
 │
 ├── manufacturing_defect_dataset.csv   # Input dataset
-├── defect.ipynb                       # Main Jupyter Notebook
+├── defect_prediction.ipynb                       # Main Jupyter Notebook
 └── README.md                          # Project documentation
 ```
 
@@ -52,7 +52,7 @@ manufacturing-defect-prediction/
 pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn xgboost statsmodels
 ```
 
-3. **Place the dataset** (`manufacturing\\\_defect\\\_dataset.csv`) in the same directory as the notebook.
+3. **Place the dataset** (`manufacturing_defect_dataset.csv`) in the same directory as the notebook.
 4. **Launch Jupyter Notebook:**
 
 ```bash
@@ -97,7 +97,7 @@ Run all cells in the notebook sequentially from top to bottom. Each section is c
 ### 6\. Preprocessing
 
 * Splits features (`X`) and target (`y`)
-* **Train/Test Split:** 80% training, 20% testing (`random\\\_state=42`)
+* **Train/Test Split:** 80% training, 20% testing 
 * **Feature Scaling:** `StandardScaler` applied to training and test sets
 
 ### 7\. Class Imbalance Handling
@@ -118,7 +118,7 @@ Four classifiers are trained on the SMOTE-resampled data and evaluated on the he
 |Logistic Regression|Solver: `liblinear`; suitable for smaller datasets|
 |Random Forest|Ensemble of decision trees; handles non-linearity well|
 |Decision Tree|Single tree; interpretable but prone to overfitting|
-|XGBoost|Gradient-boosted trees; `eval\\\_metric='logloss'`|
+|XGBoost|Gradient-boosted trees|
 
 \---
 
